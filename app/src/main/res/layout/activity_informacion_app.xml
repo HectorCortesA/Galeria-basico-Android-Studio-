@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informacionApp">
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="731dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="133dp"
+            android:layout_height="162dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="340px"
+            android:layout_marginTop="240px"
+            android:layout_marginEnd="148dp"
+            app:srcCompat="@drawable/buap" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="165dp"
+            android:layout_marginLeft="430px"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="182dp"
+            android:text="BUAP"
+            android:textColor="#5F91E8"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="365dp"
+            android:layout_height="124dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="700px"
+            android:layout_marginEnd="19dp"
+            android:text="Bienvenido a la aplicación oficial de Benemerita Universidad de Puebla, diseñada para brindarte un acceso rápido y fácil a nuestra institución. Esta app es una herramienta sencilla pero efectiva para conocer más sobre nosotros y ponerte en contacto de manera directa."
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="143dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="127dp"
+            android:layout_marginLeft="360px"
+            android:layout_marginTop="145dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="145dp"
+            android:text="Siguiente"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="#5F91E8"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="15px"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="317dp"
+            android:backgroundTint="#5F91E8"
+            android:text="Inicio" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

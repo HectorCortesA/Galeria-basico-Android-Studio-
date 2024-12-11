@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AplicacionesMoviles</string>
+
+    <string-array name="country_spinner">
+        <item>Mexico</item>
+        <item>Peru</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Brasil</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+    </string-array>
+
+</resources>
